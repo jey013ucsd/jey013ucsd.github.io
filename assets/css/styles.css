@@ -1,0 +1,64 @@
+body {
+    background-color: #f9f9f9;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    height: 100vh;
+    margin: 0;
+    font-family: "PT Serif", serif;
+}
+
+.header {
+    margin-top: 2em;
+    width: 60%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #ccc;
+}
+
+.header-name {
+    color: #fa842f;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: left;
+}
+
+.header-buttons {
+    display: flex;
+    font-size: 1.5em;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 2em;
+}
+
+.header-button {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.header-button-active {
+    text-decoration: none;
+    color: #fa842f;
+    cursor: pointer;
+}
+
+.header-button:hover {
+    color: #fa842f;
+}
+
+.content {
+    width: 60%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+}

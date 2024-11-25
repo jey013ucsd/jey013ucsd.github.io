@@ -1,0 +1,60 @@
+.content {
+    width: 60%;
+    height: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+    gap: 1em;
+}
+
+.leftdiv {
+    flex: 1 0 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: left;
+    gap: 0.5em;
+}
+
+.rightdiv {
+    flex: 3 0 0;
+    height: 100%;  
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0;
+    margin: 0;
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: normal;
+    padding: 0;
+    margin: 0;
+}
+
+.text {
+    font-size: 1rem;
+    font-weight: lighter;
+}
+
+.portrait {
+    max-width: 100%;
+    padding: 0.5em;
+    height: auto;
+}
+
+.contact-info {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 0.5em;
+    align-items: center;
+    text-align: left;
+    justify-content: flex-start;
+}
