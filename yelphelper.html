@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeffrey Yang - YelpHelper</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/project.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <div class="header-name">Jeffrey Yang</div>
+        <div class="header-buttons">
+            <a href="index.html" class="header-button">About</a>
+            <a href="assets/Resume.pdf" class="header-button" target="_blank" rel="noopener noreferrer">Resume</a>
+            <a href="projects.html" class="header-button-active">Projects</a>
+            <!--<a href="contact.html" class="header-button">Contact</a>-->
+        </div>
+    </div>
+    <div class="content">
+        <h1 class="main-title">YelpHelper - Decision Processes Made Simple</h1>
+        <h1 class="text">Yelp reviews are helpful, but sorting through dozens—or even hundreds—of them can be overwhelming. 
+            YelpHelper streamlines the process, providing quick summaries of a business’s reviews so you can make decisions 
+            faster.<br><br>
+
+            YelpHelper is a simple web application with a backend built using Python and leveraging Flask for handling user 
+            requests and routing. It uses Python libraries such as BeautifulSoup to extract review data from Yelp pages and 
+            integrates OpenAI’s GPT API to process data into concise summaries. The frontend is implemented with HTML, CSS, 
+            and JavaScript, providing users with a simple, responsive interface.<br><br>
+
+            Here's how it works:<br><br>
+        </h1>
+        <h1 class="second-title">Parsing Reviews</h1>
+        <h1 class="text">
+            When you input a Yelp page URL, YelpHelper iteratively parses through each page of reviews left on a Yelp business, 
+            gathering comprehensive text and ratings data from every review. This ensures that the app works directly with the 
+            most up-to-date review data for a business.<br><br>
+        </h1>
+        <img class='jrnl-img' src="assets/imgs/yelpmain.png" alt="insights">
+        <h1 class="second-title">Generating Summaries:</h1>
+        <h1 class="text">
+            Once the reviews are collected, OpenAI’s GPT API processes the data, pulling out common themes and summarizing 
+            the general sentiment. Whether it’s praise for great customer service or complaints about long wait times, 
+            YelpHelper captures the key takeaways for you.<br><br>
+
+            The app then organizes the summary neatly, breaking it into clear sections for positive and negative feedback,
+            recurring themes, and overall sentiment. This makes it easy to absorb the key details at a glance. <br><br>
+        </h1>
+        <img class='jrnl-img' src="assets/imgs/yelpsummary.png" alt="insights">
+        <p class="text">
+            Try it for yourself: 
+            <a href="http://ihsoop.pythonanywhere.com" style=" color: #0000EE; font-size: 1em;" target="_blank">http://ihsoop.pythonanywhere.com</a>
+        </p>
+        <h1 class="text"></h1class><br>&nbsp<br></h1>
+    </div>
+</body>

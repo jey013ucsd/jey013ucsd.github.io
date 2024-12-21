@@ -1,0 +1,32 @@
+.content {
+    width: 57%;
+    height: 90%;
+    max-height: 90%;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 2em;
+    color: rgb(53, 53, 53);
+    text-align: left;
+}
+
+.main-title {
+    font-size: 2em;
+    color: black;
+    font-weight: bold;
+}
+
+.second-title {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.text {
+    font-size: 1em;
+    font-weight: normal;
+}
+
+.jrnl-img {
+    height: 65%;
+    margin-bottom: 3em;
+}
